@@ -1,42 +1,42 @@
 PODS:
-  - iOS-WebP (0.4):
+  - iOS-WebP (0.5):
     - libwebp (~> 0.5.0)
-  - libwebp (0.5.0):
-    - libwebp/core (= 0.5.0)
-    - libwebp/dec (= 0.5.0)
-    - libwebp/demux (= 0.5.0)
-    - libwebp/dsp (= 0.5.0)
-    - libwebp/enc (= 0.5.0)
-    - libwebp/mux (= 0.5.0)
-    - libwebp/utils (= 0.5.0)
-    - libwebp/webp (= 0.5.0)
-  - libwebp/core (0.5.0):
+  - libwebp (0.5.2):
+    - libwebp/core (= 0.5.2)
+    - libwebp/dec (= 0.5.2)
+    - libwebp/demux (= 0.5.2)
+    - libwebp/dsp (= 0.5.2)
+    - libwebp/enc (= 0.5.2)
+    - libwebp/mux (= 0.5.2)
+    - libwebp/utils (= 0.5.2)
+    - libwebp/webp (= 0.5.2)
+  - libwebp/core (0.5.2):
     - libwebp/webp
-  - libwebp/dec (0.5.0):
+  - libwebp/dec (0.5.2):
     - libwebp/core
-  - libwebp/demux (0.5.0):
+  - libwebp/demux (0.5.2):
     - libwebp/core
-  - libwebp/dsp (0.5.0):
+  - libwebp/dsp (0.5.2):
     - libwebp/core
-  - libwebp/enc (0.5.0):
+  - libwebp/enc (0.5.2):
     - libwebp/core
-  - libwebp/mux (0.5.0):
+  - libwebp/mux (0.5.2):
     - libwebp/core
-  - libwebp/utils (0.5.0):
+  - libwebp/utils (0.5.2):
     - libwebp/core
-  - libwebp/webp (0.5.0)
+  - libwebp/webp (0.5.2)
 
 DEPENDENCIES:
   - iOS-WebP (from `../`)
 
 EXTERNAL SOURCES:
   iOS-WebP:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  iOS-WebP: 0081d3c9d53f242229b6246822bae2fbeee66bfe
-  libwebp: 68ba2001ba6806ee52837ebd77a551a0b6567e4e
+  iOS-WebP: 67825c7e91fd147d542477cff7203e8e6fd75a51
+  libwebp: 429abe587ea5eeaea70ca326f92ed19c378e76a1
 
 PODFILE CHECKSUM: d75ddb264e737d37ead67ea3707ff62a43fbd13a
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.3.1
